@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/calculus101/static/css/main.8df7ba8a.css",
-    "main.js": "/calculus101/static/js/main.23086bc5.js",
+    "main.js": "/calculus101/static/js/main.eddaafe7.js",
     "static/media/Mathematics-amico.png": "/calculus101/static/media/Mathematics-amico.1e040324cd03e2893900.png",
     "static/media/Arya.jpeg": "/calculus101/static/media/Arya.64594acfbd3a303ccb27.jpeg",
     "static/media/yusa.jpeg": "/calculus101/static/media/yusa.423d05058e4fd716ef01.jpeg",
@@ -19,10 +19,10 @@
     "static/media/gmail.png": "/calculus101/static/media/gmail.a2f2146f929409405da0.png",
     "index.html": "/calculus101/index.html",
     "main.8df7ba8a.css.map": "/calculus101/static/css/main.8df7ba8a.css.map",
-    "main.23086bc5.js.map": "/calculus101/static/js/main.23086bc5.js.map"
+    "main.eddaafe7.js.map": "/calculus101/static/js/main.eddaafe7.js.map"
   },
   "entrypoints": [
     "static/css/main.8df7ba8a.css",
-    "static/js/main.23086bc5.js"
+    "static/js/main.eddaafe7.js"
   ]
 }
