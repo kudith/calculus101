@@ -51,7 +51,7 @@ const CosineGraph = () => {
   return (
     <div className="container mx-auto p-8 max-w-screen-md bg-gray-100 rounded-lg shadow-md">
       <h1 className="text-3xl text-center font-bold mb-6">
-        Grafik Fungsi Kosinus
+        Grafik Fungsi Trigonometri (Cos)
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
         <div className="mb-4 md:mb-0">
@@ -124,7 +124,7 @@ const CosineGraph = () => {
             loader={<div>Loading Chart</div>}
             data={generateData()}
             options={{
-              title: `Grafik Fungsi Kosinus: ${amplitude} * cos(${frequency} * x + ${phase})`,
+              title: `Grafik Fungsi Trigonometri(Cos): ${amplitude} * cos(${frequency} * x + ${phase})`,
               legend: { position: "none" },
               width: "100%",
               height: 400,
