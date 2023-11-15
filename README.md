@@ -31,7 +31,7 @@ Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapa
 
 - **Interaktivitas Lebih Lanjut:** Penambahan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
 
-- **Komponen Kalkulus lainnya** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral dan lainnya.
+- **Komponen Kalkulus lainnya:** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral dan lainnya.
 
 ## Cara Menjalankan Proyek
 
