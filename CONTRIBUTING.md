@@ -43,7 +43,6 @@ kalkulus-grafik-fungsi/
 |-- public/
 |-- src/
 |   |-- components/
-|   |-- utils/
 |   |-- App.js
 |   |-- index.js
 |-- .gitignore
