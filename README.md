@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Proyek Kalkulus Grafik Fungsi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah proyek mata kuliah kalkulus yang dikembangkan menggunakan React.js dan Tailwind CSS. Proyek ini fokus pada pembuatan grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan trigonometri. Selain itu, website ini juga menyediakan konten materi kalkulus yang mendukung pemahaman tentang grafik fungsi tersebut.
 
-## Available Scripts
+## [Website Proyek](https://kudith.github.io/calculus101)
 
-In the project directory, you can run:
+Kunjungi [Website Proyek Kalkulus Grafik Fungsi](https://kudith.github.io/calculus101) untuk mencoba sendiri!
 
-### `npm start`
+## Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Grafik Fungsi Matematika:** Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berikut:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Linear
+  - Kuadrat
+  - Kubik
+  - Eksponen
+  - Logaritma
+  - Trigonometri
 
-### `npm test`
+- **Materi Kalkulus:** Selain grafik fungsi, website ini juga menyediakan konten materi kalkulus yang mendalam, membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Operasi Grafik:** Pengguna dapat melakukan operasi sederhana pada grafik, seperti zoom in, zoom out, dan reset.
 
-### `npm run build`
+## Pengembangan Lanjutan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapat ditambahkan atau ditingkatkan:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Optimasi Performa:** Perbaikan performa untuk meningkatkan kecepatan render grafik, terutama pada fungsi-fungsi kompleks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Tambahkan Fungsi Baru:** Integrasi fungsi matematika tambahan, seperti fungsi eksponensial kompleks atau fungsi matematika lanjutan.
 
-### `npm run eject`
+- **Interaktivitas Lebih Lanjut:** Tambahkan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Cara Menjalankan Proyek
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Pastikan Anda memiliki Node.js dan npm diinstal di sistem Anda.
+2. Clone repositori ini ke dalam sistem Anda.
+3. Buka terminal dan navigasikan ke direktori proyek.
+4. Jalankan perintah `npm install` untuk menginstal semua dependensi.
+5. Jalankan perintah `npm start` untuk menjalankan aplikasi dalam mode pengembangan.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Kontribusi
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pada proyek ini, silakan buka [Panduan Kontribusi](CONTRIBUTING.md) untuk informasi lebih lanjut.
 
-## Learn More
+## Kelompok
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Ginanjar Aditiya Prianata**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - **Kontribusi Utama:**
 
-### Code Splitting
+     - Pengembangan utama komponen untuk grafik fungsi
+     - Implementasi fungsi reset pada grafik dan pengelolaan keadaan grafik.
+     - Pengoptimalkan performa dan responsivitas aplikasi.
+     - Pengembangan dalam membuat semua komponen menjadi responsive
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - **Kontak:**
+     - Email: ginanjar.aditya15@gmail.com
+     - LinkedIn: [Ginanjar Aditiya Prianata](https://www.linkedin.com/in/ginanjar-aditiya-prianata-744691242/)
 
-### Analyzing the Bundle Size
+2. **Arya Ahmad Caesar**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   - **Kontribusi Pendukung:**
 
-### Making a Progressive Web App
+     - Penulisan materi kalkulus tentang grafik fungsi
+     - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi eksponen dan logaritma.
+     - Penambahan fitur zoom in dan zoom out pada grafik.
+     - Pengujian dan peningkatan kualitas kode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - **Kontak:**
+     - Email : -
+     - GitHub : -
 
-### Advanced Configuration
+3. **Yusa Putra Rosdiana**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   - **Kontribusi Pendukung:**
 
-### Deployment
+     - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi kuadrat dan kubik.
+     - Penulisan materi kalkulus tentang grafik fungsi
+     - Penyusunan materi kalkulus tentang grafik fungsi
+     - Kontribusi pada peningkatan fungsionalitas grafik trigonometri.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   - **Kontak:**
+     - Email : -
+     - GitHub : -
