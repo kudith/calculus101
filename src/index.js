@@ -7,7 +7,7 @@ import MateriKalkulus from "./components/materiKalkulus.jsx";
 
 const Root = () => (
   <React.StrictMode>
-    <Router>
+    <Router basename="/calcullus101">
       <Routes>
         <Route path="/calculus101" element={<App />} />
         <Route
