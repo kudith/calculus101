@@ -17,7 +17,7 @@ Kunjungi [Website Proyek Kalkulus Grafik Fungsi](https://kudith.github.io/calcul
   - Logaritma
   - Trigonometri
 
-- **Materi Kalkulus:** Selain grafik fungsi, website ini juga menyediakan konten materi kalkulus yang mendalam, membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
+- **Materi Kalkulus:** website ini juga menyediakan konten materi kalkulus yang mendasar, membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
 
 - **Operasi Grafik:** Pengguna dapat melakukan operasi sederhana pada grafik, seperti zoom in, zoom out, dan reset.
 
