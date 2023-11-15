@@ -29,7 +29,9 @@ Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapa
 
 - **Tambahkan Fungsi Baru:** Integrasi fungsi matematika tambahan, seperti fungsi eksponensial kompleks atau fungsi matematika lanjutan.
 
-- **Interaktivitas Lebih Lanjut:** Tambahkan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
+- **Interaktivitas Lebih Lanjut:** Penambahan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
+
+- **Komponen Kalkulus lainnya** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral dan lainnya.
 
 ## Cara Menjalankan Proyek
 
