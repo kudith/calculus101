@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/calculus101/static/css/main.784f48a5.css",
-    "main.js": "/calculus101/static/js/main.4530a9ee.js",
+    "main.css": "/calculus101/static/css/main.9cd6be5c.css",
+    "main.js": "/calculus101/static/js/main.2faf4de8.js",
     "static/media/Mathematics-amico.png": "/calculus101/static/media/Mathematics-amico.1e040324cd03e2893900.png",
     "static/media/Arya.jpeg": "/calculus101/static/media/Arya.64594acfbd3a303ccb27.jpeg",
     "static/media/yusa.jpeg": "/calculus101/static/media/yusa.423d05058e4fd716ef01.jpeg",
     "static/media/instagram.png": "/calculus101/static/media/instagram.8e408da00539cdef4629.png",
     "static/media/Mathematics-bro(2).svg": "/calculus101/static/media/Mathematics-bro(2).b398f4f6c8641654f9b5efee8ae7ec81.svg",
+    "static/media/adit5.jpeg": "/calculus101/static/media/adit5.b9c6b66cee75197a3a3a.jpeg",
     "static/media/kuadrat.png": "/calculus101/static/media/kuadrat.02c8b7f8424fbf93022f.png",
     "static/media/tri.png": "/calculus101/static/media/tri.8b71408554ce942fd7b0.png",
     "static/media/bg_img.png": "/calculus101/static/media/bg_img.451ed4effea956f5b348.png",
     "static/media/bg-hero.png": "/calculus101/static/media/bg-hero.492aab8e638c106d2d85.png",
     "static/media/kubik.svg": "/calculus101/static/media/kubik.55de29f6813ef212756a08d484962a8d.svg",
-    "static/media/adit2.jpeg": "/calculus101/static/media/adit2.16a2218204d69ee852ce.jpeg",
     "static/media/logaritma.png": "/calculus101/static/media/logaritma.fba756321208b38b853e.png",
     "static/media/linear.png": "/calculus101/static/media/linear.85c006e7247d5350e75c.png",
     "static/media/ekspo.png": "/calculus101/static/media/ekspo.2f232310e5343dd8e29e.png",
     "static/media/gmail.png": "/calculus101/static/media/gmail.a2f2146f929409405da0.png",
     "index.html": "/calculus101/index.html",
-    "main.784f48a5.css.map": "/calculus101/static/css/main.784f48a5.css.map",
-    "main.4530a9ee.js.map": "/calculus101/static/js/main.4530a9ee.js.map"
+    "main.9cd6be5c.css.map": "/calculus101/static/css/main.9cd6be5c.css.map",
+    "main.2faf4de8.js.map": "/calculus101/static/js/main.2faf4de8.js.map"
   },
   "entrypoints": [
-    "static/css/main.784f48a5.css",
-    "static/js/main.4530a9ee.js"
+    "static/css/main.9cd6be5c.css",
+    "static/js/main.2faf4de8.js"
   ]
 }
