@@ -40,10 +40,6 @@ Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapa
 4. Jalankan perintah `npm install` untuk menginstal semua dependensi.
 5. Jalankan perintah `npm start` untuk menjalankan aplikasi dalam mode pengembangan.
 
-## Kontribusi
-
-Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pada proyek ini, silakan buka [Panduan Kontribusi](CONTRIBUTING.md) untuk informasi lebih lanjut.
-
 ## Kelompok
 
 1. **Ginanjar Aditiya Prianata**
@@ -84,3 +80,7 @@ Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pa
    - **Kontak:**
      - Email : -
      - GitHub : -
+## Kontribusi
+
+Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pada proyek ini, silakan buka [Panduan Kontribusi](CONTRIBUTING.md) untuk informasi lebih lanjut.
+
