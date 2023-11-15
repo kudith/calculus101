@@ -4,7 +4,7 @@ Ini adalah proyek mata kuliah kalkulus yang dibangun menggunakan React.js dan Ta
 
 ## [Website Proyek](https://kudith.github.io/calculus101)
 
-Kunjungi [Website Proyek Kalkulus Grafik Fungsi](https://kudith.github.io/calculus101) untuk mencoba sendiri!
+Kunjungi website dari proyek kami  [GraphMath](https://kudith.github.io/calculus101) untuk mencoba sendiri!
 
 ## Fitur Utama
 
@@ -13,7 +13,6 @@ Kunjungi [Website Proyek Kalkulus Grafik Fungsi](https://kudith.github.io/calcul
   - Linear
   - Kuadrat
   - Kubik
-  - Eksponen
   - Logaritma
   - Trigonometri
 
