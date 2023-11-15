@@ -52,9 +52,9 @@ Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pa
    - **Kontribusi Utama:**
 
      - Pengembangan utama komponen untuk grafik fungsi
-     - Implementasi fungsi reset pada grafik dan pengelolaan keadaan grafik.
-     - Pengoptimalkan performa dan responsivitas aplikasi.
-     - Pengembangan dalam membuat semua komponen menjadi responsive
+     - Implementasi fungsi reset, zoom in, zoom out pada grafik dan pengelolaan keadaan grafik.
+     - Pengoptimalkan performa dan responsivitas web.
+     - Menangani perbaikan bug pada tampilan responsif aplikasi.
 
    - **Kontak:**
      - Email: ginanjar.aditya15@gmail.com
@@ -65,9 +65,9 @@ Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pa
    - **Kontribusi Pendukung:**
 
      - Penulisan materi kalkulus tentang grafik fungsi
-     - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi eksponen dan logaritma.
-     - Penambahan fitur zoom in dan zoom out pada grafik.
-     - Pengujian dan peningkatan kualitas kode.
+     - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi trigonometri dan logaritma.
+     - PBantuan dalam fitur zoom in dan zoom out pada grafik.
+     - Pengujian dan peningkatan kualitas web.
 
    - **Kontak:**
      - Email : -
@@ -80,7 +80,7 @@ Kontribusi selalu diterima! Jika Anda memiliki saran atau ingin berkontribusi pa
      - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi kuadrat dan kubik.
      - Penulisan materi kalkulus tentang grafik fungsi
      - Penyusunan materi kalkulus tentang grafik fungsi
-     - Kontribusi pada peningkatan fungsionalitas grafik trigonometri.
+     - Kontribusi pada peningkatan fungsionalitas gambar grafik.
 
    - **Kontak:**
      - Email : -
