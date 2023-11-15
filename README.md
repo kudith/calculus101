@@ -2,9 +2,9 @@
 
 Ini adalah proyek mata kuliah kalkulus yang dibangun menggunakan React.js dan Tailwind CSS. Proyek ini fokus pada pembuatan grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan trigonometri. Selain itu, website ini juga menyediakan konten materi kalkulus yang mendukung pemahaman tentang grafik fungsi tersebut.
 
-## [Website Proyek](https://kudith.github.io/calculus101)
+## [Website Proyek](https://graphmath.netlify.app/)
 
-Kunjungi website dari proyek kami  [GraphMath](https://kudith.github.io/calculus101) untuk mencoba sendiri!
+Kunjungi website dari proyek kami  [GraphMath](https://graphmath.netlify.app/) untuk mencoba sendiri!
 
 ## Fitur Utama
 
