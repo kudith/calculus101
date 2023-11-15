@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link
               to="home-section"
               spy={true}
-              smooth="true"
+              smooth={true}
               duration={500}
               className="cursor-pointer italic"
             >
@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link
               to="home-section"
               spy={true}
-              smooth="true"
+              smooth={true}
               duration={500}
               className="cursor-pointer"
             >
@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link
               to="about"
               spy={true}
-              smooth="true"
+              smooth={true}
               duration={500}
               className="cursor-pointer"
             >
@@ -46,7 +46,7 @@ const Navbar = () => {
             <Link
               to="calculator"
               spy={true}
-              smooth="true"
+              smooth={true}
               duration={500}
               className="cursor-pointer"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
             <Link
               to="contact"
               spy={true}
-              smooth="true"
+              smooth={true}
               duration={500}
               className="cursor-pointer"
             >
@@ -73,7 +73,7 @@ const Navbar = () => {
           <Link
             to="calculator"
             spy={true}
-            smooth="true"
+            smooth={true}
             duration={500}
             className="cursor-pointer"
           >
@@ -94,7 +94,7 @@ const Navbar = () => {
         <Link
           to="home-section"
           spy={true}
-          smooth="true"
+          smooth={true}
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -104,7 +104,7 @@ const Navbar = () => {
         <Link
           to="about"
           spy={true}
-          smooth="true"
+          smooth={true}
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -114,7 +114,7 @@ const Navbar = () => {
         <Link
           to="calculator"
           spy={true}
-          smooth="true"
+          smooth={true}
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -127,7 +127,7 @@ const Navbar = () => {
         <Link
           to="contact"
           spy={true}
-          smooth="true"
+          smooth={true}
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}

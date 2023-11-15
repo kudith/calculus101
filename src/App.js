@@ -10,6 +10,7 @@ import LogarithmicGraphComponent from "./components/logaritmFunc";
 import TrigonometricGraphComponent from "./components/trigonoFunc";
 import CubicGraph from "./components/cubicFunc";
 import Footer from "./components/footer";
+import { ScrollRestoration } from "react-router-dom";
 
 function App() {
   const [selectedFunction, setSelectedFunction] = useState("linear");
@@ -40,6 +41,7 @@ function App() {
 
       <Member />
       <Footer />
+      <ScrollRestoration />
     </div>
   );
 }

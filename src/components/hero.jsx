@@ -78,27 +78,27 @@ const Hero = () => {
           {[
             {
               icon: <CalculatorIcon className="h-6 mx-2 text-primay" />,
-              text: "Linear function",
+              text: " Fungsi Linear",
             },
             {
               icon: <VariableIcon className="h-6 mx-2 text-primay" />,
-              text: "Quadratic function",
+              text: "Fungsi Kuadrat",
             },
             {
               icon: <PaperAirplaneIcon className="h-6 mx-2 text-primay" />,
-              text: "Cubic function",
+              text: "Fungsi Kubik",
             },
             {
               icon: <SquaresPlusIcon className="h-6 mx-2 text-primay" />,
-              text: "Exponential function",
+              text: "Fungsi Eksponensial",
             },
             {
               icon: <SquaresPlusIcon className="h-6 mx-2 text-primay" />,
-              text: "Logarithmic function",
+              text: "Fungsi Logaritma",
             },
             {
               icon: <SquaresPlusIcon className="h-6 mx-2 text-primay" />,
-              text: "Trigonometric function",
+              text: "Fungsi Trigonometri",
             },
           ].map((item, index) => (
             <p key={index} className="flex px-4 py-2 text-slate-500">

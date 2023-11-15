@@ -7,7 +7,7 @@ import GrafikFungsiKubik from "./kubik";
 import GrafikFungsiEksponensial from "./eksponen";
 import GrafikFungsiLogaritma from "./logaritma";
 import GrafikFungsiTrigono from "./trigono";
-
+import { ScrollRestoration } from "react-router-dom";
 const MateriKalkulus = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -19,6 +19,7 @@ const MateriKalkulus = () => {
       <GrafikFungsiLogaritma />
       <GrafikFungsiTrigono />
       <Footer />
+      <ScrollRestoration />
     </div>
   );
 };
