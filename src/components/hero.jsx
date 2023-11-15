@@ -57,7 +57,7 @@ const Hero = () => {
           <Link
             to="calculator"
             spy={true}
-            smooth={true}
+            smooth="true"
             offset={-70}
             duration={500}
             className="py-4 px-6 sm:w-full sm:max-w-[60%] md:w-[50%] lg:w-[40%] cursor-pointer"

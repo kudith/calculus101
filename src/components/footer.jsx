@@ -64,24 +64,24 @@ const Footer = () => {
             <h6 className="font-medium text-gray-400 mb-2">Content</h6>
             <ul className="text-xs underline">
               <li className="py-1">
-                <Link to="/calculus101" smooth={true} duration={500}>
+                <Link to="/calculus101" smooth="true" duration={500}>
                   Home
                 </Link>
               </li>
               <li className="py-1">
-                <Link to="/calculus101" smooth={true} duration={500}>
+                <Link to="/calculus101" smooth="true" duration={500}>
                   About
                 </Link>
               </li>
               <li className="py-1">
-                <Link to="/calculus101" smooth={true} duration={500}>
+                <Link to="/calculus101" smooth="true" duration={500}>
                   Calculator
                 </Link>
               </li>
               <li className="py-1">
                 <Link
                   to="/calculus101/MateriKalkulus"
-                  smooth={true}
+                  smooth="true"
                   duration={500}
                 >
                   Materi Kalkulus

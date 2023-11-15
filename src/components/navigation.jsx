@@ -15,8 +15,7 @@ const NavigationCalc = () => {
           <h1 className="text-xl text-primay font-serif italic font-bold animation-fade-in-up">
             <RouterLink
               to="/calculus101"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -26,8 +25,7 @@ const NavigationCalc = () => {
           <ul className="hidden md:flex font-semibold mx-1 text-sm">
             <RouterLink
               to="/calculus101"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -35,8 +33,7 @@ const NavigationCalc = () => {
             </RouterLink>
             <Link
               to="fungsiLinear"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -44,8 +41,7 @@ const NavigationCalc = () => {
             </Link>
             <Link
               to="fungsiKuadrat"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -53,8 +49,7 @@ const NavigationCalc = () => {
             </Link>
             <Link
               to="fungsiKubik"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -62,8 +57,7 @@ const NavigationCalc = () => {
             </Link>
             <Link
               to="fungsiEksponen"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -71,8 +65,7 @@ const NavigationCalc = () => {
             </Link>
             <Link
               to="fungsiLogaritma"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -80,8 +73,7 @@ const NavigationCalc = () => {
             </Link>
             <Link
               to="fungsiTrigono"
-              spy={true}
-              smooth={true}
+              smooth="true"
               duration={500}
               className="cursor-pointer"
             >
@@ -92,8 +84,7 @@ const NavigationCalc = () => {
         <div className="hidden md:flex">
           <Link
             to="fungsiLinear"
-            spy={true}
-            smooth={true}
+            smooth="true"
             duration={500}
             className="cursor-pointer"
           >
@@ -114,8 +105,7 @@ const NavigationCalc = () => {
       >
         <RouterLink
           to="/calculus101"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -124,8 +114,7 @@ const NavigationCalc = () => {
         </RouterLink>
         <Link
           to="fungsiLinear"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -134,8 +123,7 @@ const NavigationCalc = () => {
         </Link>
         <Link
           to="fungsiKuadrat"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -144,8 +132,7 @@ const NavigationCalc = () => {
         </Link>
         <Link
           to="fungsiKubik"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -154,8 +141,7 @@ const NavigationCalc = () => {
         </Link>
         <Link
           to="fungsiEksponen"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -164,8 +150,7 @@ const NavigationCalc = () => {
         </Link>
         <Link
           to="fungsiLogaritma"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}
@@ -174,8 +159,7 @@ const NavigationCalc = () => {
         </Link>
         <Link
           to="fungsiTrigono"
-          spy={true}
-          smooth={true}
+          smooth="true"
           duration={500}
           className="cursor-pointer"
           onClick={closeMenu}

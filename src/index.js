@@ -1,22 +1,24 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MateriKalkulus from "./components/materiKalkulus.jsx";
 
-const Root = () => (
+const router = createBrowserRouter([
+  {
+    path: "/calculus101",
+    element: <App />,
+  },
+  {
+    path: "/calculus101/MateriKalkulus",
+    element: <MateriKalkulus />,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <Router basename="/calcullus101">
-      <Routes>
-        <Route path="/calculus101" element={<App />} />
-        <Route
-          path="/calculus101/MateriKalkulus"
-          element={<MateriKalkulus />}
-        />
-      </Routes>
-    </Router>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-ReactDOM.createRoot(document.getElementById("root")).render(<Root />);
