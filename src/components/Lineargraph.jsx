@@ -1,58 +1,62 @@
 import React, { useState } from "react";
-import { Chart } from "react-google-charts";
+import Plot from "react-plotly.js";
 
 const FunctionGraph = () => {
+  // State untuk kemiringan (m), konstanta (b), dan fungsi yang sudah di-parse
   const [m, setM] = useState("");
   const [b, setB] = useState("");
   const [parsedFunction, setParsedFunction] = useState(null);
-  const [zoomFactor, setZoomFactor] = useState(1);
 
+  // Fungsi untuk menghasilkan data untuk grafik Plotly berdasarkan fungsi yang sudah di-parse
   const generateData = () => {
     if (parsedFunction) {
-      const data = [["x", "y"]];
-      for (let x = -10; x <= 10; x++) {
-        const y = parsedFunction.m * x + parsedFunction.b;
-        data.push([x, y]);
-      }
-      return data;
+      const xValues = Array.from({ length: 21 }, (_, i) => i - 10);
+      const yValues = xValues.map(
+        (x) => parsedFunction.m * x + parsedFunction.b
+      );
+
+      return [
+        {
+          x: xValues,
+          y: yValues,
+          type: "scatter",
+          mode: "lines",
+          line: { color: "#20cd8d" },
+        },
+      ];
     }
     return [];
   };
 
+  // Penanganan klik tombol "Submit" untuk menghasilkan grafik
   const handleGenerateChart = () => {
     setParsedFunction({ m: parseFloat(m), b: parseFloat(b) });
   };
 
+  // Penanganan tombol Enter untuk menghasilkan grafik
   const handleInputKeyPress = (e) => {
     if (e.key === "Enter") {
       handleGenerateChart();
     }
   };
 
-  const handleZoomIn = () => {
-    setZoomFactor(zoomFactor * 1.2);
-  };
-
-  const handleZoomOut = () => {
-    setZoomFactor(zoomFactor * 0.8);
-  };
-
+  // Penanganan klik tombol "Reset" untuk mengembalikan formulir ke nilai awal
   const handleReset = () => {
     setM("");
     setB("");
     setParsedFunction(null);
-    setZoomFactor(1);
   };
 
   return (
-    <div className="container mx-auto p-8 max-w-screen-md bg-gray-100 rounded-lg shadow-md">
+    <div className="container mx-auto md:px-32 md:py-8 p-12 max-w-screen-md bg-gray-100 rounded-lg shadow-md">
       <h1 className="text-3xl text-center font-bold mb-6">
         Grafik Fungsi Linear
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
+        {/* Input untuk kemiringan (m) */}
         <div className="mb-4 md:mb-0">
           <label className="block text-sm font-medium text-gray-600 mb-2">
-            Koefisien Miring (m)
+            Kemiringan (m)
           </label>
           <input
             type="number"
@@ -62,6 +66,7 @@ const FunctionGraph = () => {
             onKeyPress={handleInputKeyPress}
           />
         </div>
+        {/* Input untuk konstanta (b) */}
         <div className="mb-4 md:mb-0">
           <label className="block text-sm font-medium text-gray-600 mb-2">
             Konstanta (b)
@@ -74,24 +79,13 @@ const FunctionGraph = () => {
             onKeyPress={handleInputKeyPress}
           />
         </div>
+        {/* Tombol untuk mengirim dan mereset */}
         <div className="flex flex-wrap justify-center gap-4 mb-4 md:mb-0">
           <button
-            className="bg-primary text-white rounded-md  mt-4 px-6 py-2 hover:bg-slate-700 w-full md:w-auto"
+            className="bg-primary text-white rounded-md mt-4 px-6 py-2 hover:bg-slate-700 w-full md:w-auto"
             onClick={handleGenerateChart}
           >
             Submit
-          </button>
-          <button
-            className="bg-cyan-400 text-gray-700 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
-            onClick={handleZoomIn}
-          >
-            Zoom In
-          </button>
-          <button
-            className="bg-slate-800 text-gray-100 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
-            onClick={handleZoomOut}
-          >
-            Zoom Out
           </button>
           <button
             className="bg-pink-500 text-gray-100 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
@@ -101,48 +95,46 @@ const FunctionGraph = () => {
           </button>
         </div>
       </div>
+      {/* Menampilkan grafik jika fungsi sudah di-parse */}
       {parsedFunction && (
-        <div className="bg-white p-4 rounded-lg shadow-lg">
-          <Chart
-            chartType="LineChart"
-            loader={<div>Loading Chart</div>}
-            data={generateData()}
-            options={{
-              title: `Grafik Fungsi Linear: y = ${parsedFunction.m}x + ${parsedFunction.b}`,
-              legend: { position: "none" },
-              width: "100%",
-              height: 400,
-              hAxis: {
-                title: "x",
-                gridlines: {
-                  count: 11,
-                },
-                minValue: -10 / zoomFactor,
-                maxValue: 10 / zoomFactor,
-              },
-              vAxis: {
-                title: "y",
-                gridlines: {
-                  count: 11,
-                },
-                minValue: -100 / zoomFactor,
-                maxValue: 100 / zoomFactor,
-              },
-              explorer: {
-                actions: ["dragToZoom", "rightClickToReset"],
-                axis: "horizontal",
-                keepInBounds: true,
-                maxZoomIn: 4.0,
-              },
-              curveType: "function",
-              animation: {
-                startup: true,
-                easing: "out",
-                duration: 1000,
-              },
-              colors: ["#20cd8d"],
-            }}
-          />
+        <div className="bg-white rounded-lg shadow-lg">
+          <div className="bg-white p-2 rounded-lg shadow-lg">
+            <div className="plot-container">
+              {/* Grafik Plotly */}
+              <Plot
+                data={generateData()}
+                layout={{
+                  title: `Fungsi Linear: y = ${parsedFunction.m}x + ${parsedFunction.b}`,
+                  xaxis: {
+                    title: "x",
+                  },
+                  yaxis: {
+                    title: "y",
+                  },
+                  margin: { t: 50, b: 50, l: 50, r: 50 },
+                  useResizeHandler: true,
+                  dragmode: "pan",
+                }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                }}
+                config={{
+                  responsive: true,
+                  scrollZoom: true,
+                  displayModeBar: true,
+                  displaylogo: false,
+                  modeBarButtonsToRemove: [
+                    "toImage",
+                    "sendDataToCloud",
+                    "select2d",
+                    "lasso2d",
+                  ],
+                  modeBarMode: "pan",
+                }}
+              />
+            </div>
+          </div>
         </div>
       )}
     </div>

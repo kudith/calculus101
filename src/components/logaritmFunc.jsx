@@ -1,24 +1,38 @@
 import React, { useState } from "react";
-import { Chart } from "react-google-charts";
+import Plot from "react-plotly.js";
 
+// Komponen untuk menampilkan grafik fungsi logaritma basis 10.
 const LogarithmicGraph = () => {
+  // State untuk menyimpan nilai a, b, dan fungsi yang sudah di-parse.
   const [a, setA] = useState("");
   const [b, setB] = useState("");
   const [parsedFunction, setParsedFunction] = useState(null);
-  const [zoomFactor, setZoomFactor] = useState(1);
 
+  // Fungsi untuk menghasilkan data yang diperlukan oleh Plotly.
   const generateData = () => {
     if (parsedFunction) {
-      const data = [["x", "y"]];
+      const xValues = [];
+      const yValues = [];
+      // Menghasilkan nilai y berdasarkan fungsi logaritma basis 10.
       for (let x = 0.1; x <= 10; x += 0.1) {
-        const y = parsedFunction.a * Math.log(x) + parsedFunction.b;
-        data.push([x, y]);
+        xValues.push(x);
+        const y = parsedFunction.a * Math.log10(x) + parsedFunction.b;
+        yValues.push(y);
       }
-      return data;
+      return [
+        {
+          x: xValues,
+          y: yValues,
+          type: "scatter",
+          mode: "lines",
+          line: { color: "#20cd8d" },
+        },
+      ];
     }
     return [];
   };
 
+  // Fungsi untuk menangani penggunaan tombol "Submit".
   const handleGenerateChart = () => {
     setParsedFunction({
       a: parseFloat(a),
@@ -26,32 +40,27 @@ const LogarithmicGraph = () => {
     });
   };
 
+  // Fungsi untuk menangani kunci Enter pada input.
   const handleInputKeyPress = (e) => {
     if (e.key === "Enter") {
       handleGenerateChart();
     }
   };
 
-  const handleZoomIn = () => {
-    setZoomFactor(zoomFactor * 1.2);
-  };
-
-  const handleZoomOut = () => {
-    setZoomFactor(zoomFactor * 0.8);
-  };
-
+  // Fungsi untuk mereset nilai a, b, dan fungsi.
   const handleReset = () => {
     setA("");
     setB("");
     setParsedFunction(null);
-    setZoomFactor(1);
   };
 
   return (
     <div className="container mx-auto p-8 max-w-screen-md bg-gray-100 rounded-lg shadow-md">
+      {/* Judul */}
       <h1 className="text-3xl text-center font-bold mb-6">
-        Grafik Fungsi Logaritma
+        Grafik Fungsi Logaritma Basis 10
       </h1>
+      {/* Form input dan tombol */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
         <div className="mb-4 md:mb-0">
           <label className="block text-sm font-medium text-gray-600 mb-2">
@@ -78,24 +87,14 @@ const LogarithmicGraph = () => {
           />
         </div>
         <div className="flex flex-wrap justify-center gap-4 mb-4 md:mb-0">
+          {/* Tombol Submit */}
           <button
             className="bg-primary text-white rounded-md mt-4 px-6 py-2 hover:bg-slate-700 w-full md:w-auto"
             onClick={handleGenerateChart}
           >
             Submit
           </button>
-          <button
-            className="bg-cyan-400 text-gray-700 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
-            onClick={handleZoomIn}
-          >
-            Zoom In
-          </button>
-          <button
-            className="bg-slate-800 text-gray-100 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
-            onClick={handleZoomOut}
-          >
-            Zoom Out
-          </button>
+          {/* Tombol Reset */}
           <button
             className="bg-pink-500 text-gray-100 rounded-md mt-4 px-6 py-2 hover:bg-gray-400 w-full md:w-auto"
             onClick={handleReset}
@@ -104,46 +103,42 @@ const LogarithmicGraph = () => {
           </button>
         </div>
       </div>
+      {/* Menampilkan grafik jika fungsi sudah di-parse */}
       {parsedFunction && (
         <div className="bg-white p-4 rounded-lg shadow-lg">
-          <Chart
-            chartType="LineChart"
-            loader={<div>Loading Chart</div>}
+          {/* Komponen Plotly untuk menampilkan grafik */}
+          <Plot
             data={generateData()}
-            options={{
-              title: `Grafik Fungsi Logaritma: y = ${parsedFunction.a} * ln(x) + ${parsedFunction.b}`,
-              legend: { position: "none" },
-              width: "100%",
-              height: 400,
-              hAxis: {
+            layout={{
+              title: `Grafik Fungsi Logaritma Basis 10: y = ${parsedFunction.a} * log10(x) + ${parsedFunction.b}`,
+              showlegend: false,
+              xaxis: {
                 title: "x",
-                gridlines: {
-                  count: 11,
-                },
-                minValue: 0.1 / zoomFactor,
-                maxValue: 10 / zoomFactor,
               },
-              vAxis: {
+              yaxis: {
                 title: "y",
-                gridlines: {
-                  count: 11,
-                },
-                minValue: -10 / zoomFactor,
-                maxValue: 10 / zoomFactor,
               },
-              explorer: {
-                actions: ["dragToZoom", "rightClickToReset"],
-                axis: "horizontal",
-                keepInBounds: true,
-                maxZoomIn: 4.0,
-              },
-              curveType: "function",
-              animation: {
-                startup: true,
-                easing: "out",
-                duration: 1000,
-              },
-              colors: ["#20cd8d"],
+              margin: { t: 50, b: 50, l: 50, r: 50 },
+              autosize: true,
+              useResizeHandler: true,
+              dragmode: "pan",
+            }}
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+            config={{
+              responsive: true,
+              scrollZoom: true,
+              displayModeBar: true,
+              displaylogo: false,
+              modeBarButtonsToRemove: [
+                "toImage",
+                "sendDataToCloud",
+                "select2d",
+                "lasso2d",
+              ],
+              modeBarMode: "pan",
             }}
           />
         </div>

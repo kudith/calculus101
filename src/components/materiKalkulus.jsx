@@ -10,7 +10,7 @@ import GrafikFungsiTrigono from "./trigono";
 import { ScrollRestoration } from "react-router-dom";
 const MateriKalkulus = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen overflow-hidden">
       <NavigationCalc />
       <GrafikFungsiLinear />
       <GrafikFungsiKuadrat />

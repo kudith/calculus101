@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full bg-white py-16 px-4 bg-cover bg-no-repeat mt-[35rem] md:mt-20"
+      className="w-full bg-zinc-100 py-16 px-4 bg-cover bg-no-repeat mt-[35rem] md:mt-20"
       style={{ backgroundImage: `url(${abouImg})` }}
     >
       <div className="max-w-screen-xl mt-10 sm:mt-1 mx-auto grid md:grid-cols-2 gap-20">
