@@ -3,7 +3,7 @@
 
 # GraphMath
 
-GraphMath adalah proyek open-source yang dikembangkan menggunakan teknologi modern seperti React.js, Tailwind CSS, dan PlotlyJS. Proyek ini dirancang untuk membantu pemahaman konsep kalkulus melalui visualisasi grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan fungsi trigonometri (sinus dan kosinus).
+GraphMath adalah sebuah proyek mata kuliah kalkulus yang dibangun menggunakan React.js, Tailwind CSS, PlotlyJS. Proyek ini fokus pada pembuatan grafik fungsi matematika seperti linear, kuadrat, kubik, logaritma, dan trigonometri. Selain itu, website ini juga menyediakan konten materi kalkulus yang mendukung pemahaman tentang grafik fungsi.
 
 ![GraphMath](https://github.com/kudith/calculus101/assets/72257176/c36ab578-bc9d-4bf1-8843-00821de65313)
 
@@ -54,14 +54,6 @@ Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berik
 ### 2. Materi Kalkulus
 
 Website ini menyediakan konten materi kalkulus yang mendalam untuk membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
-
-### 3. Operasi Grafik
-
-Pengguna dapat melakukan operasi sederhana pada grafik, seperti zoom in, zoom out, dan reset.
-
-## Grafik Fungsi Trigonometri
-
-Saat ini, proyek ini mendukung fungsi trigonometri dasar, yaitu sinus dan kosinus. Kami terus mengembangkan untuk mendukung lebih banyak fungsi trigonometri dan fungsi matematika lanjutan.
 
 ## Pengembangan Lanjutan
 
