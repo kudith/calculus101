@@ -1,36 +1,57 @@
-# Proyek Kalkulus Grafik Fungsi
+# GraphMath - Proyek Kalkulus Grafik Fungsi
 
-Ini adalah proyek mata kuliah kalkulus yang dibangun menggunakan React.js dan Tailwind CSS. Proyek ini fokus pada pembuatan grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan trigonometri. Selain itu, website ini juga menyediakan konten materi kalkulus yang mendukung pemahaman tentang grafik fungsi tersebut.
+![GraphMath Logo]()
+![GrapMath](https://github.com/kudith/calculus101/assets/72257176/350e3a73-3bb9-40b5-a72d-887a134d8581)
 
-## [Website Proyek](https://graphmath.netlify.app/)
+GraphMath adalah proyek open-source yang dikembangkan menggunakan teknologi modern seperti React.js, Tailwind CSS, dan PlotlyJS. Proyek ini dirancang untuk membantu pemahaman konsep kalkulus melalui visualisasi grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan fungsi trigonometri (sinus dan kosinus).
 
-Kunjungi website dari proyek kami  [GraphMath](https://graphmath.netlify.app/) untuk mencoba sendiri!
+## Demo Proyek
+
+Kunjungi website dari proyek kami: [GraphMath](https://graphmath.netlify.app/) untuk mencoba sendiri!
+
+## Teknologi yang Digunakan
+
+- **React.js:** Library JavaScript untuk membangun antarmuka pengguna yang dinamis.
+- **Tailwind CSS:** Framework CSS yang sangat fleksibel dan mudah dikonfigurasi.
+- **PlotlyJS:** Perpustakaan JavaScript untuk membuat grafik interaktif.
 
 ## Fitur Utama
 
-- **Grafik Fungsi Matematika:** Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berikut:
+### 1. Grafik Fungsi Matematika
 
-  - Linear
-  - Kuadrat
-  - Kubik
-  - Logaritma
-  - Trigonometri
+Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berikut:
 
-- **Materi Kalkulus:** website ini juga menyediakan konten materi kalkulus yang mendasar, membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
+- **Linear**
+- **Kuadrat**
+- **Kubik**
+- **Eksponen**
+- **Logaritma**
+- **Trigonometri (Sinus dan Kosinus)**
 
-- **Operasi Grafik:** Pengguna dapat melakukan operasi sederhana pada grafik, seperti zoom in, zoom out, dan reset.
+### 2. Materi Kalkulus
+
+Website ini menyediakan konten materi kalkulus yang mendalam untuk membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
+
+### 3. Operasi Grafik
+
+Pengguna dapat melakukan operasi sederhana pada grafik, seperti zoom in, zoom out, dan reset.
+
+## Grafik Fungsi Trigonometri
+
+Saat ini, proyek ini mendukung fungsi trigonometri dasar, yaitu sinus dan kosinus. Kami terus mengembangkan untuk mendukung lebih banyak fungsi trigonometri dan fungsi matematika lanjutan.
 
 ## Pengembangan Lanjutan
 
-Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapat ditambahkan atau ditingkatkan:
+Proyek ini terus berkembang, dan kami menyambut kontribusi dari komunitas. Beberapa area pengembangan lanjutan meliputi:
 
-- **Optimasi Performa:** Perbaikan performa untuk meningkatkan kecepatan render grafik, terutama pada fungsi-fungsi kompleks.
-
-- **Tambahkan Fungsi Baru:** Integrasi fungsi matematika tambahan, seperti fungsi eksponensial kompleks atau fungsi matematika lanjutan.
-
+- **Optimasi Performa:** Meningkatkan kecepatan render grafik, terutama pada fungsi-fungsi kompleks.
+- **Fungsi Baru:** Menambahkan fungsi matematika tambahan seperti eksponensial kompleks atau fungsi matematika lanjutan.
 - **Interaktivitas Lebih Lanjut:** Penambahan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
+- **Komponen Kalkulus Lainnya:** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral, dan lainnya.
 
-- **Komponen Kalkulus lainnya:** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral dan lainnya.
+## Catatan Penting
+
+Proyek ini dikembangkan oleh tim yang terdiri dari pemula. Saat melakukan refresh pada halaman kalkulus di GitHub Pages, mungkin akan muncul issue 404. Tim sedang berusaha memperbaikinya.
 
 ## Cara Menjalankan Proyek
 
@@ -39,6 +60,7 @@ Proyek ini masih dalam tahap pengembangan, dan terdapat beberapa fitur yang dapa
 3. Buka terminal dan navigasikan ke direktori proyek.
 4. Jalankan perintah `npm install` untuk menginstal semua dependensi.
 5. Jalankan perintah `npm start` untuk menjalankan aplikasi dalam mode pengembangan.
+
 
 ## Kelompok
 
