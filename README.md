@@ -1,13 +1,21 @@
 # GraphMath - Proyek Kalkulus Grafik Fungsi
 
-![GraphMath Logo]()
-![GrapMath](https://github.com/kudith/calculus101/assets/72257176/350e3a73-3bb9-40b5-a72d-887a134d8581)
 
+#GraphMath
 GraphMath adalah proyek open-source yang dikembangkan menggunakan teknologi modern seperti React.js, Tailwind CSS, dan PlotlyJS. Proyek ini dirancang untuk membantu pemahaman konsep kalkulus melalui visualisasi grafik fungsi matematika seperti linear, kuadrat, kubik, eksponen, logaritma, dan fungsi trigonometri (sinus dan kosinus).
+
+
+![grapMath](https://github.com/kudith/calculus101/assets/72257176/a02070a7-3f8b-459a-a6b5-434604ec9730)
+
 
 ## Demo Proyek
 
 Kunjungi website dari proyek kami: [GraphMath](https://graphmath.netlify.app/) untuk mencoba sendiri!
+
+
+![Screenshot from 2023-11-20 21-40-10](https://github.com/kudith/calculus101/assets/72257176/fb1d028a-98f9-4cb3-a295-acd9671dae01)
+                                                                                                                                                                                    
+
 
 ## Teknologi yang Digunakan
 
@@ -22,11 +30,26 @@ Kunjungi website dari proyek kami: [GraphMath](https://graphmath.netlify.app/) u
 Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berikut:
 
 - **Linear**
+  
+  ![Screenshot from 2023-11-20 21-50-02](https://github.com/kudith/calculus101/assets/72257176/7b27a3f1-3741-44af-b0de-9c7d1b32a95f)
+
 - **Kuadrat**
+  
+ ![Screenshot from 2023-11-20 21-50-12](https://github.com/kudith/calculus101/assets/72257176/3507d720-6df0-4503-b0bc-75c1043b0315)
+
 - **Kubik**
-- **Eksponen**
+  
+ ![Screenshot from 2023-11-20 21-50-28](https://github.com/kudith/calculus101/assets/72257176/7cd7f7ac-4ea1-4e59-8c7e-bc40adeb6b32)
+
+- **Eksponen** (Materi Only)
 - **Logaritma**
+  
+ ![Screenshot from 2023-11-20 21-50-38](https://github.com/kudith/calculus101/assets/72257176/923431d4-18ab-418c-aca3-382ad6792594)
+
 - **Trigonometri (Sinus dan Kosinus)**
+  
+ ![Screenshot from 2023-11-20 21-40-36](https://github.com/kudith/calculus101/assets/72257176/c6829f81-7225-4d2d-8de1-52ae714963dc)
+
 
 ### 2. Materi Kalkulus
 
