@@ -42,7 +42,7 @@ Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berik
  ![Screenshot from 2023-11-20 21-50-28](https://github.com/kudith/calculus101/assets/72257176/7cd7f7ac-4ea1-4e59-8c7e-bc40adeb6b32)
 
 - **Eksponen** (Materi Only)
-- **Logaritma**
+- **Logaritma** (basis 10)
   
  ![Screenshot from 2023-11-20 21-50-38](https://github.com/kudith/calculus101/assets/72257176/923431d4-18ab-418c-aca3-382ad6792594)
 
@@ -53,7 +53,7 @@ Proyek ini memungkinkan pengguna untuk menggambar grafik fungsi matematika berik
 
 ### 2. Materi Kalkulus
 
-Website ini menyediakan konten materi kalkulus yang mendalam untuk membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi.
+Website ini juga menyediakan konten materi kalkulus yang mendasar, membantu pengguna memahami konsep-konsep dasar kalkulus yang terkait dengan grafik fungsi. Mungkin Untuk kedepannya semoga bisa menambahkan semua materi yang ada di kalkulus.
 
 ## Pengembangan Lanjutan
 
@@ -64,11 +64,8 @@ Proyek ini terus berkembang, dan kami menyambut kontribusi dari komunitas. Beber
 - **Interaktivitas Lebih Lanjut:** Penambahan fitur interaktif seperti tooltip pada grafik, animasi perubahan fungsi, atau pilihan warna kustom untuk grafik.
 - **Komponen Kalkulus Lainnya:** Penambahan materi dan operasi kalkulus lainnya seperti limit, turunan, integral, dan lainnya.
 
-## Catatan Penting
 
-Proyek ini dikembangkan oleh tim yang terdiri dari pemula. Saat melakukan refresh pada halaman kalkulus di GitHub Pages, mungkin akan muncul issue 404. Tim sedang berusaha memperbaikinya.
-
-## Cara Menjalankan Proyek
+## Cara Menjalankan Proyek di localHost
 
 1. Pastikan Anda memiliki Node.js dan npm diinstal di sistem Anda.
 2. Clone repositori ini ke dalam sistem Anda.
@@ -83,8 +80,7 @@ Proyek ini dikembangkan oleh tim yang terdiri dari pemula. Saat melakukan refres
 
    - **Kontribusi Utama:**
 
-     - Pengembangan utama komponen untuk grafik fungsi
-     - Implementasi fungsi reset, zoom in, zoom out pada grafik dan pengelolaan keadaan grafik.
+     - Pengembangan utama komponen untuk grafik fungsi.
      - Pengoptimalkan performa dan responsivitas web.
      - Menangani perbaikan bug pada tampilan responsif aplikasi.
 
@@ -98,7 +94,6 @@ Proyek ini dikembangkan oleh tim yang terdiri dari pemula. Saat melakukan refres
 
      - Penulisan materi kalkulus tentang grafik fungsi
      - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi trigonometri dan logaritma.
-     - PBantuan dalam fitur zoom in dan zoom out pada grafik.
      - Pengujian dan peningkatan kualitas web.
 
    - **Kontak:**
@@ -109,7 +104,6 @@ Proyek ini dikembangkan oleh tim yang terdiri dari pemula. Saat melakukan refres
 
    - **Kontribusi Pendukung:**
 
-     - Bantuan dalam mengimplementasikan komponen untuk grafik fungsi kuadrat dan kubik.
      - Penulisan materi kalkulus tentang grafik fungsi
      - Penyusunan materi kalkulus tentang grafik fungsi
      - Kontribusi pada peningkatan fungsionalitas gambar grafik.
